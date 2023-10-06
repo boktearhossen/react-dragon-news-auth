@@ -12,9 +12,6 @@ const SingleNewscart = ({ news }) => {
           </div>
         <div className=" ">
             <p className="mt-4">{details.slice(0,200)} <Link className="font-bold text-[#FF8C47]" to={`/news/${_id}`}>See More....</Link> </p>
-         
-          
-          
         </div>
     </div>
     
